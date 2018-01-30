@@ -6,4 +6,5 @@ This repository contains implementation of AWS SQS. To test the SQS we can use t
 [ElasticMQ](https://s3-eu-west-1.amazonaws.com/softwaremill-public/elasticmq-server-0.13.8.jar)
 
 Run ElasticMQ Server
-java -jar elasticmq-server-0.13.8.jar
+Simply run the jar and you should get a working server, which binds to `localhost:9324`:
+          java -jar elasticmq-server-0.13.8.jar
